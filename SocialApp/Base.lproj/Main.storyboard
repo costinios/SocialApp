@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDG-vB-Pn4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDG-vB-Pn4" customClass="FancyView" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="20" width="375" height="150"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopes-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Ms-9j-5N8">
@@ -74,19 +74,19 @@
                                     <constraint firstAttribute="height" constant="120" id="Q4Q-Tn-dDL"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LSq-UR-C9I">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LSq-UR-C9I" customClass="FancyTextField" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="377.5" width="315" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iLX-qd-mBO">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iLX-qd-mBO" customClass="FancyTextField" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="427.5" width="315" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poN-jw-xWq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poN-jw-xWq" customClass="FancyButton" customModule="SocialApp" customModuleProvider="target">
                                 <rect key="frame" x="30" y="477.5" width="315" height="38"/>
                                 <color key="backgroundColor" red="0.30196078431372547" green="0.81568627450980391" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
@@ -108,7 +108,6 @@
                             <constraint firstItem="gGY-w3-U8X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J7r-BO-ezc"/>
                             <constraint firstItem="DKJ-lW-2Gf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QI8-zS-RZr"/>
                             <constraint firstItem="dDG-vB-Pn4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QdP-lP-a5m"/>
-                            <constraint firstItem="LSq-UR-C9I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qwo-OV-ZNd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iLX-qd-mBO" secondAttribute="trailing" constant="30" id="SmO-Jj-5j6"/>
                             <constraint firstItem="poN-jw-xWq" firstAttribute="top" secondItem="iLX-qd-mBO" secondAttribute="bottom" constant="20" id="X5g-mv-ndr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="poN-jw-xWq" secondAttribute="trailing" constant="30" id="aip-mw-o6z"/>
