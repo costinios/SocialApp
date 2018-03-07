@@ -7,7 +7,6 @@ target 'SocialApp' do
 
   # Pods for SocialApp
 
-
   pod 'Firebase'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
